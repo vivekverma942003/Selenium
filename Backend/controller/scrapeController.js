@@ -2,8 +2,9 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
 const { v4: uuidv4 } = require("uuid");
 const Trend = require('../models/Trend');
 
-const username = "vishalkrverma50";
-const password = "sonu@123";
+Here this is the  dummy password please enter the correct password and username 
+const username = "####";
+const password = "######";
 
 async function scrapeTwitter() {
     let driver = await new Builder().forBrowser("chrome").build();
