@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color for readability */
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-title {
+  font-size: 2rem;
+  color: #ff6f61; /* Coral color for the title */
+  margin-bottom: 20px;
+}
+
+.fetch-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6f61; /* Coral background */
+  color: #fff; /* White text */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.fetch-button:hover {
+  background-color: #d9534f; /* Darker coral on hover */
+}
+
+/* Data Display */
+.trending-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #1e1e1e; /* Slightly lighter dark background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.timestamp {
+  font-size: 1rem;
+  color: #4caf50; /* Green timestamp color */
+  margin-bottom: 10px;
+}
+
+.trends-list {
+  list-style: none;
+  padding: 0;
+}
+
+.trend-item {
+  font-size: 1.2rem;
+  color: #2196f3; /* Blue text for trends */
+  margin: 5px 0;
+}
+
+.ip-address {
+  font-size: 1rem;
+  color: #ffc107; /* Amber for IP address */
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-title {
+      font-size: 1.5rem;
+  }
+
+  .fetch-button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+  }
+
+  .trend-item {
+      font-size: 1rem;
+  }
+}
