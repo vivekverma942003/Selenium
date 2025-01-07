@@ -3,6 +3,7 @@ const scrapeTwitter = require('../controller/scrapeController');
 
 const router = express.Router();
 
+This is the router 
 router.get('/scrape', async (req, res) => {
     const data = await scrapeTwitter();
     if (data) res.json(data);
